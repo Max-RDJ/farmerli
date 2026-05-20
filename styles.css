@@ -192,7 +192,7 @@ body {
 
 .top-btn:hover {
   border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 12px;
+  border-radius: 50px;
   transform: translateY(-4px);
   background: rgba(255,255,255,0.06);
 }
@@ -603,8 +603,13 @@ textarea::placeholder {
   border: 1px solid rgba(255,255,255,0.08);
 }
 
-.hiw-stats h3 {
+.hiw-stats .positive {
   color: #8fff9b;
+  margin-bottom: 10px;
+}
+
+.hiw-stats .negative {
+  color: #ff8f8f;
   margin-bottom: 10px;
 }
 
