@@ -75,27 +75,21 @@ body {
   font-size: 2.4rem;
 }
 
-.drawer a {
+.drawer-btn {
   display: block;
   color: white;
   text-decoration: none;
   margin: 22px 0;
   font-size: 1.2rem;
-  transition: 0.3s;
+  border-radius: 8px;
+  padding: 12px 10px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
-.drawer a:hover {
+.drawer-btn:active {
   color: #8fff9b;
-  background: rgba(255, 255, 255, 0.170);
-  padding: 12px 8px;
-  border-radius: 8px;
-}
-
-.drawer a:active {
-  color: #8fff9b;
-  background: rgba(255, 255, 255, 0.170);
-  padding: 12px 8px;
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .hero {
@@ -175,6 +169,17 @@ body {
   box-shadow: 0 10px 30px rgba(143,255,155,0.35);
 }
 
+.btn-secondary {
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(8px);
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.12);
+}
+
 .top-btn {
   color: white;
   text-decoration: none;
@@ -187,12 +192,12 @@ body {
 .top-btn:hover {
   border: 1px solid rgba(255,255,255,0.15);
   border-radius: 12px;
-  translate: Y(20px);
+  transform: translateY(-4px);
   background: rgba(255,255,255,0.06);
 }
 
 .top {
-  padding: 30px 8%;
+  padding: 25px 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -570,7 +575,7 @@ textarea {
       font-size: 3rem;
     }
 
-    .drawer a {
+    .drawer-btn {
       margin: 18px 0;
       font-size: 1.5rem;
     }
