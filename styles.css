@@ -72,7 +72,7 @@ body {
 .drawer h2 {
   color: #8fff9b;
   margin-bottom: 40px;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .drawer a {
@@ -80,13 +80,22 @@ body {
   color: white;
   text-decoration: none;
   margin: 22px 0;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   transition: 0.3s;
 }
 
 .drawer a:hover {
   color: #8fff9b;
-  transform: translateX(5px);
+  background: rgba(255, 255, 255, 0.170);
+  padding: 12px 8px;
+  border-radius: 8px;
+}
+
+.drawer a:active {
+  color: #8fff9b;
+  background: rgba(255, 255, 255, 0.170);
+  padding: 12px 8px;
+  border-radius: 8px;
 }
 
 .hero {
@@ -402,6 +411,10 @@ body {
   ========================== */
 
   @media (max-width: 768px) {
+
+    .hero {
+      padding-top: 100px;
+    }
     .hero h1 {
       font-size: 3.2rem;
     }
