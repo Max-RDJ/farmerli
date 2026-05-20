@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Farmerli — Subscribe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<button class="menu-btn" onclick="toggleDrawer()">
+    ☰ Menu
+</button>
+
+<nav class="drawer" id="drawer">
+    <h2>Farmerli</h2>
+
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Farming</a>
+    <a href="#">Subscribe</a>
+    <a href="#">Community</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>
+        Fresh Produce.<br>
+        <span>Delivered Sustainably.</span>
+        </h1>
+
+        <p>
+        Join Farmerli and receive locally sourced produce from
+        environmentally responsible farms near you.
+        </p>
+
+        <!-- POSTCODE CHECKER -->
+
+        <div class="postcode-box">
+
+        <h3>Check Availability</h3>
+
+        <div class="postcode-form">
+
+            <input
+            type="text"
+            id="postcodeInput"
+            placeholder="Enter your postcode"
+            >
+
+            <button onclick="checkPostcode()">
+            Check Area
+            </button>
+
+        </div>
+
+        <div class="result" id="result">
+            ✅ Great news — Farmerli is available in your area.
+        </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="info-section">
+
+    <div class="info-text">
+
+        <h2>Locally Sourced Farming</h2>
+
+        <p>
+        Every Farmerli subscription supports nearby farms using
+        low-impact growing techniques and sustainable harvesting.
+        We focus on reducing transport emissions while improving
+        freshness and food quality.
+        </p>
+
+    </div>
+
+    <div class="info-card"></div>
+
+</section>
+
+<section class="info-section">
+
+    <div class="info-card"></div>
+
+    <div class="info-text">
+        <h2>Minimal Waste Packaging</h2>
+        <p>
+            Our deliveries are packaged using recyclable and compostable
+            materials designed to minimise environmental impact while
+            keeping your produce protected and fresh.
+        </p>
+    </div>
+
+</section>
+
+<section class="info-section">
+
+    <div class="info-text">
+
+        <h2>Powered By Smart Agriculture</h2>
+
+        <p>
+        Farmerli farms use modern monitoring systems and water-efficient
+        growing methods to maximise crop health while conserving resources.
+        Better technology means better sustainability.
+        </p>
+
+    </div>
+
+    <div class="info-card"></div>
+
+</section>
+
+<section class="pricing">
+
+    <h2>Simple Subscription</h2>
+
+    <p>
+        Flexible weekly deliveries with no long-term commitment.
+    </p>
+
+    <div class="plan">
+
+        <h3>Farmerli Green Box</h3>
+
+        <div class="price">£19</div>
+
+        <ul>
+            <li>Weekly fresh produce delivery</li>
+            <li>Organic seasonal vegetables</li>
+            <li>Eco-friendly packaging</li>
+            <li>Support local sustainable farms</li>
+        </ul>
+
+        <a href="#" class="subscribe-btn">
+        Start Subscription
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="legal-copy">
+    © 2026 Farmerli
+</footer>
+
+<script src="drawer.js"></script>
+<script src="postcodeChecker.js"></script>
+</body>
+</html>
