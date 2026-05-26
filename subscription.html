@@ -34,7 +34,13 @@
 </nav>
 
 <section class="hero">
+    <img
+      class="hero-image"
+      src="images/plant-hero.jpg"
+      alt="Fresh produce and plants"
+    >
 
+    <div class="hero-overlay"></div>
     <div class="hero-content">
 
         <h1>
@@ -68,9 +74,29 @@
         </div>
 
         <div class="result" id="result">
-            ✅ Great news — Farmerli is available in your area.
-            <button class="btn btn-primary" onclick="window.location.href='plan-selection.html'">Proceed to Plans</button>
-        </div>
+
+            <div class="result-icon">
+                ✓
+            </div>
+
+            <div class="result-content">
+                <h3>Farmerli is available in your area</h3>
+
+                <p>
+                You can now choose a flexible produce plan and start receiving
+                fresh imperfect fruit & veg directly from local farms.
+                </p>
+
+                <button
+                class="btn btn-primary result-btn"
+                onclick="window.location.href='plan-selection.html'">
+
+                View Available Plans
+
+                </button>
+            </div>
+
+            </div>
 
         </div>
     </div>

@@ -1,4 +1,4 @@
 function checkPostcode(){
     const result = document.getElementById("result");
-    result.style.display = "block";
+    result.style.display = "flex";
 }
