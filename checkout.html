@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farmerli — Checkout</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<button class="menu-btn" onclick="toggleDrawer()"></button>
+
+<!-- TOP NAV -->
+<div class="top">
+  <img class="top-logo" src="images/farmerli_logo.png" alt="Farmerli Logo">
+
+  <div class="top-links">
+    <a href="index.html" class="top-btn">Home</a>
+    <a href="how-it-works.html" class="top-btn">How it works</a>
+    <a href="contact.html" class="top-btn">Contact</a>
+    <a href="programmes.html" class="top-btn">For Local Councils</a>
+  </div>
+</div>
+
+<!-- MOBILE DRAWER -->
+<nav class="drawer" id="drawer">
+  <img class="drawer-logo" src="images/farmerli_logo.png" alt="Farmerli Logo">
+
+  <a href="index.html" class="drawer-btn">Home</a>
+  <a href="how-it-works.html" class="drawer-btn">How it works</a>
+  <a href="programmes.html" class="drawer-btn">For Local Councils</a>
+  <a href="contact.html" class="drawer-btn">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section class="checkout-hero">
+
+  <div class="checkout-hero-content">
+    <h1>
+      Complete Your <span class="green-highlight">Subscription</span>
+    </h1>
+
+    <p>
+      You're one step away from receiving fresh imperfect produce
+      delivered weekly from local farms.
+    </p>
+  </div>
+
+</section>
+
+<!-- CHECKOUT -->
+<section class="checkout-section">
+
+  <!-- FORM -->
+  <div class="checkout-form-box">
+
+    <h2>Billing Details</h2>
+
+    <form>
+
+      <div class="checkout-row">
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+      </div>
+
+      <input type="email" placeholder="Email Address">
+
+      <input type="text" placeholder="Delivery Address">
+
+      <div class="checkout-row">
+        <input type="text" placeholder="Town / City">
+        <input type="text" placeholder="Postcode">
+      </div>
+
+      <div class="checkout-row">
+        <input type="text" placeholder="Card Number">
+        <input type="text" placeholder="MM / YY">
+      </div>
+
+      <input type="text" placeholder="Security Code (CVV)">
+
+      <div class="fake-checkbox">
+        <input type="checkbox" checked>
+        <label>
+          I agree to the Farmerli subscription terms
+        </label>
+      </div>
+
+      <button type="button" class="checkout-btn">
+        Complete Subscription
+      </button>
+
+      <p class="demo-note">
+        Demo checkout only — no payment processing occurs.
+      </p>
+
+    </form>
+
+  </div>
+
+  <!-- SUMMARY -->
+  <div class="summary-box">
+
+    <h2>Order Summary</h2>
+
+    <div class="summary-card">
+
+      <div class="summary-top">
+        <div>
+          <h3>Trial Month Plan</h3>
+          <p>Weekly produce delivery</p>
+        </div>
+
+        <span class="summary-price">
+          £9.99
+        </span>
+      </div>
+
+      <div class="summary-divider"></div>
+
+      <div class="summary-row">
+        <span>Subscription</span>
+        <span>£9.99</span>
+      </div>
+
+      <div class="summary-row">
+        <span>Delivery</span>
+        <span>Free</span>
+      </div>
+
+      <div class="summary-row">
+        <span>Packaging</span>
+        <span>Included</span>
+      </div>
+
+      <div class="summary-divider"></div>
+
+      <div class="summary-total">
+        <span>Total</span>
+        <span>£9.99</span>
+      </div>
+
+    </div>
+
+    <div class="summary-info">
+
+      <h4>What's included?</h4>
+
+      <ul>
+        <li>✓ Weekly fruit & veg deliveries</li>
+        <li>✓ Seasonal produce selections</li>
+        <li>✓ Flexible cancellation</li>
+        <li>✓ Local farm partnerships</li>
+        <li>✓ Lower food waste impact</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+<footer class="legal-copy">
+  © 2026 Farmerli
+</footer>
+
+<script src="javascript/drawer.js"></script>
+
+</body>
+</html>
